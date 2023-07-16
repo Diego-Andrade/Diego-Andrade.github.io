@@ -1,0 +1,23 @@
+body {
+    padding-top: 40px;  /* Padding needed for navbar*/
+}
+
+
+/*==== Footer Style ====*/
+.bi-linkedin {
+    fill: var(--bs-blue);
+    transition: filter 0.3s ease;
+}
+
+.bi-linkedin:hover {
+    filter: brightness(70%);
+}
+
+.bi-github {
+    fill: var(--bs-dark);
+    transition: filter 0.3s ease;
+}
+
+.bi-github:hover {
+    filter: brightness(300%);
+}
