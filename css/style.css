@@ -1,4 +1,4 @@
-/*==== Generic Styles ====*/
+/* Generic Styles */
 .image-small {
     border-radius: 20px;
     width: 33vw;
@@ -15,7 +15,7 @@
     padding: 0;
 }
 
-/*==== Section styling ====*/
+/* Section styling */
 main {
     /* Adjust for header and footer */
     max-height: calc(100vh - 68px);
@@ -47,7 +47,7 @@ main {
     right: 0;
 }
 
-/*==== Footer Style ====*/
+/* Footer Style */
 .footer-item {
     padding: 0;
     margin: 0;
