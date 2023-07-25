@@ -1,7 +1,12 @@
 /* Generic Styles */
-.image-small {
+.img-small {
     border-radius: 20px;
     width: 33vw;
+}
+
+.img-large {
+    border-radius: 10px;
+    width: 70vw;
 }
 
 .text-center-vertical {
