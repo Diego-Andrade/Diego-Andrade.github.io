@@ -1,22 +1,39 @@
 /* Generic Styles */
-.img-small {
-    border-radius: 15px;
-    width: 33vw;
-}
-
 .img-large {
     border-radius: 15px;
-    width: 60vw;
+    width: 60%;
 }
 
 .img-wrap {
     border-radius: 15px;
-    width: 300px;
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+    margin-block-start: 0.25rem;
+    margin-block-end: 0.25rem;
 }
 
-.img-wrap-portrait {
-    border-radius: 15px;
-    width: 200px;
+@media (max-width: 767px) {
+    .img-wrap {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .img-wrap {
+        width: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .img-wrap-portrait {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .img-wrap-portrait {
+        width: 25%;
+    }
 }
 
 .text-center-vertical {
@@ -30,13 +47,26 @@
     padding: 0;
 }
 
-/* Section styling */
-main {
-    /* Adjust for header and footer */
-    /* Fix 'view' into page */
-    height: calc(100vh - 68px);
-    width: 100vw;
+.disable-scrollbars::-webkit-scrollbar {
+    /* Chrome/Safari/Webkit */
+    background: transparent;
+    width: 0px;
+}
 
+.disable-scrollbars {
+    /* Firefox */
+    scrollbar-width: none;
+    /* IE 10+ */
+    -ms-overflow-style: none;
+}
+
+/* Specific styling */
+main {
+    /* Adjust for header */
+    /* Fix 'view' into page */
+    height: calc(100vh - 40px);
+    width: 100vw;
+    max-width: 1280px;
     padding: 0;
     margin: 0;
     overflow-y: scroll;
@@ -62,39 +92,4 @@ main {
     padding-bottom: 0.3rem;
     left: 0;
     right: 0;
-}
-
-/* Footer Style */
-.footer-item {
-    padding: 0;
-    margin: 0;
-    line-height: 0px;
-    font-size: 10px;
-}
-
-footer .bi-linkedin {
-    fill: var(--bs-blue);
-    transition: filter 0.3s ease;
-}
-
-footer .bi-linkedin:hover {
-    filter: brightness(70%);
-}
-
-footer .bi-github {
-    fill: var(--bs-dark);
-    transition: filter 0.3s ease;
-}
-
-footer .bi-github:hover {
-    filter: brightness(300%);
-}
-
-footer .bi-envelope-at {
-    fill: var(--bs-dark);
-    transition: filter 0.3s ease;
-}
-
-footer .bi-envelope-at:hover {
-    filter: brightness(300%);
 }
