@@ -1,11 +1,11 @@
 /* Generic Styles */
 .img-large {
-    border-radius: 15px;
-    width: 60%;
+    border-radius: 10px;
+    width: 80%;
 }
 
 .img-wrap {
-    border-radius: 15px;
+    border-radius: 5px;
     margin-inline-start: 1rem;
     margin-inline-end: 1rem;
     margin-block-start: 0.25rem;
