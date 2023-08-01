@@ -1,7 +1,7 @@
 /* Generic Styles */
 .img-large {
     border-radius: 10px;
-    width: 80%;
+    width: 60%;
 }
 
 .img-wrap {
@@ -15,6 +15,10 @@
 @media (max-width: 767px) {
     .img-wrap {
         width: 90%;
+    }
+
+    .img-large {
+        width: 100%;
     }
 }
 
